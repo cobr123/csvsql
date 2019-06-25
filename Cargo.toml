@@ -1,0 +1,10 @@
+[package]
+name = "csvsql"
+version = "0.1.0"
+authors = ["cobr123"]
+edition = "2018"
+
+[dependencies]
+[dependencies.rusqlite]
+version = "0.18.0"
+features = ["csvtab", "vtab", "bundled"]
